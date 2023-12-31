@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0 200px;
+}
