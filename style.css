@@ -17,6 +17,15 @@ a {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
 .header {
     display: flex;
     background-color: #1f2937;
@@ -26,4 +35,38 @@ a {
     font-size: 24px;
     color: #f9faf8;
     padding: 0 200px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    flex: 1;
+    color: #f9faf8;
+    padding: 60px 200px;
+    gap: 20px;
+}
+
+.hero-main-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    flex-direction: column;
+    color: #f9faf8;
+    max-width: 50%;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.hero-img-container {
+    display: flex ;
+    flex: 1 1 auto;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    padding: 100px;
 }
